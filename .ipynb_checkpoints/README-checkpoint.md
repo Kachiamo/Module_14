@@ -91,3 +91,14 @@ predictions_df['Strategy Returns'] = predictions_df['Actual Returns'] * predicti
 ```
 -- Plot the actual returns versus the strategy returns of the SVM model
 ![sixth](pics/AvS.png)
+
+-- Use classifier - AdaBoost
+```python
+from sklearn.ensemble import AdaBoostClassifier
+abc = AdaBoostClassifier()
+model = abc.fit(X_train_scaled, y_train)
+pred = abc_model.predict(X_test_scaled)
+abc_test_report = classification_report(y_test, abc_pred)
+```
+![ninth](pics/pic2.png)
+![tenth](pics/pic1.png)
