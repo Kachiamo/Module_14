@@ -80,7 +80,7 @@ svm_model = svm_model.fit(X_train_scaled, y_train)
 svm_pred = svm_model.predict(X_test_scaled)
 ```
 -- Generate classification report with the SVC model predictions
-![fifth](pics/SVM_report_1.png)
+![fifth](pics/SVM_report_2.png)
 
 -- Create a predictions dataframe
 ```python
@@ -100,7 +100,7 @@ model = abc.fit(X_train_scaled, y_train)
 pred = abc_model.predict(X_test_scaled)
 abc_test_report = classification_report(y_test, abc_pred)
 ```
-![ninth](pics/pic2.png)
+
 
 
 ![eleventh](pics/SVM_report_1.png)
