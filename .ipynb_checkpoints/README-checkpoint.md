@@ -101,4 +101,7 @@ pred = abc_model.predict(X_test_scaled)
 abc_test_report = classification_report(y_test, abc_pred)
 ```
 ![ninth](pics/pic2.png)
-![tenth](pics/pic1.png)
+
+
+![eleventh](pics/SVM_report_1.png)
+![tenth](pics/Pic1.png)
